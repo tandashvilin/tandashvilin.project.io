@@ -1,0 +1,121 @@
+.container {
+  
+  display: flex;
+  
+      align-content: center;
+  
+          align-items: center;
+ 
+          flex-direction: column;
+  
+      flex-wrap: nowrap;
+  height: 100%;
+  
+      justify-content: space-around;
+  position: relative;
+  width: 100%;
+}
+
+.container section {
+  width: 100%;
+  height: 100vh;
+  
+          flex: 1;
+
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.container section .position {
+  position: relative;
+  
+  display: flex;
+  
+          justify-content: center;
+  
+          align-items: center;
+}
+
+
+.container section:nth-child(1) .image {
+  background-image: url(https://i.ibb.co/3WYLhx4/ss.jpg);
+}
+
+.container section:nth-child(2) .image {
+  background-image: url(https://i.ibb.co/98Gf4dk/0-02-0a-c9e943da18116f2a135fa05031a771e86ff4701122dea8b888f193cfee9a85bf-58c1477f.jpg);
+}
+
+.container section:nth-child(3) .image {
+  background-image: url(https://i.ibb.co/TtBbR6f/0-02-0a-03d883e60001ee96420f3df244b8a94aa06911f47a2caf1b5d9b3924f0162fa7-827f7ccf.jpg);
+}
+
+.container section:nth-child(4) .image {
+  background-image: url(https://i.ibb.co/PWSzKcS/MG-1049.jpg);
+}
+
+.container section:nth-child(5) .image {
+  background-image: url(https://i.ibb.co/Ycvd20P/MG-1045.jpg);
+}
+
+.container section:nth-child(6) .image {
+  background-image: url(https://i.ibb.co/BqRpXQg/MG-1024.jpg);
+}
+
+.container section:nth-child(7) .image {
+  background-image: url(https://i.ibb.co/sPVnkPz/MG-1009.jpg);
+}
+
+.container section .image {
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.4;
+}
+
+.container section .stuff {
+  
+  display: flex;
+  
+   flex-direction: column;
+
+  
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+ 
+  justify-content: center;
+  text-align: center;
+  z-index: 1000;
+  color: #e67e22;
+  margin: 0 auto;
+  font-size: 26px;
+  position: relative;
+}
+
+.container section .stuff h2 {
+  margin: 0px;
+}
+
+
+
+
+/*# sourceMappingURL=main.css.map */
+
+.button {
+  background: black;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button4 {border-radius: 12px;}
